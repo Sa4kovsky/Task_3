@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "DpVupEuYl7xvT99eLhVtqF2d+5pJl3SXB+cfc2o+NdgY9MBj0wdVktHFJMkRDx25/djazAiyVEz/CFj/cTt9gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC_SACHKOVSKY\\source\\repos\\Task_3\\Task_3\\Task_3\\Task_3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC_SACHKOVSKY\\.nuget\\packages\\bouncycastle\\1.8.6.1\\bouncycastle.1.8.6.1.nupkg.sha512",
+    "C:\\Users\\PC_SACHKOVSKY\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\PC_SACHKOVSKY\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\PC_SACHKOVSKY\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\PC_SACHKOVSKY\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"BouncyCastle 1.8.6.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

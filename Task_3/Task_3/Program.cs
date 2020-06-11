@@ -10,22 +10,19 @@ namespace Task_3
     {
         static void Main(string[] args)
         {
-           // string[] args = { "rock", "spork", "lizard",  "paper", "scissors"};
             View.InputValidation(args);
 
             Key.CreateKey();
             Rules.CreateRules(args);
 
-            string computerMove = args[new Random().Next(0, args.Length)];                      
+            string computerMove = args[new Random().Next(0, args.Length)];  
+            
             Key.CreateHMAC(computerMove);
             View.OutputHMAC();
             
             while (true)
             {
                 View.Menu(args);
-
-               
-
                 bool move = int.TryParse(Console.ReadLine(), out int i);
                 if(i <= args.Length && i >= 0)
                 {

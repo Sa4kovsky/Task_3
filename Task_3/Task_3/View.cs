@@ -21,7 +21,6 @@ namespace Task_3
                 Console.WriteLine("Enter an odd number of objects >= 3");
                 Environment.Exit(0); 
             }
-
         }
 
         internal static void Menu(string[] gameObject)
@@ -34,7 +33,6 @@ namespace Task_3
                 count++;
             }
             Console.WriteLine("0-Exit");
-
         }
 
         internal static void OutputHMACKey()
